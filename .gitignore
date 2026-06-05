@@ -1,0 +1,97 @@
+# .NET build outputs
+bin/
+obj/
+out/
+packages/
+
+# User-specific files
+*.user
+*.suo
+*.userosscache
+*.vs
+*.vscode/*
+
+# Pero si quieres compartir configuraciones de VS Code (como tareas o lanzamientos),
+# puedes ignorar solo los archivos personales. Por simplicidad se ignora toda la carpeta.
+# Si prefieres mantener .vscode/ pero excluir settings personales, usa:
+# .vscode/* !.vscode/tasks.json !.vscode/launch.json
+
+# Archivos generados por Rider, Visual Studio, etc.
+*.csproj.user
+*.dbmdl
+*.jfm
+*.pidb
+*.psess
+*.vsp
+*.vspx
+*.sln.docstates
+
+# Resultados de pruebas (TestResults)
+TestResults/
+*.trx
+*.coverage
+*.coveragexml
+*.coveragexml.config
+
+# Archivos de logging
+*.log
+*.logs
+*.htm
+*.html
+*.tmp
+*.tmp_proj
+
+# Archivos de configuración local de desarrollo (a menudo contienen secretos)
+appsettings.Development.json
+appsettings.Local.json
+secrets.json
+*.secrets.json
+
+# Archivos de diagnóstico
+*.csproj.CopyComplete
+*.pidbproj
+*.sln.ide
+*.sln.ide/
+*.ide/
+
+# Dependencias de herramientas locales
+.fake/
+.dotnet/
+.tools/
+.nuget/
+
+# Archivos de empaquetado NuGet
+*.nupkg
+*.snupkg
+*.symbols.nupkg
+
+# Archivos de publicación (publish)
+/publish/
+*.pubxml.user
+*.pubxml.user.*
+*.pubxml.*.user
+
+# Archivos de backup
+*~
+*.bak
+*.orig
+
+# Archivos de entorno
+.env
+.env*.local
+*.env.local
+
+# Archivos de Visual Studio Code específicos del workspace
+*.code-workspace
+
+# Archivos generados por omnisharp (para VS Code)
+.omnisharp/
+*.cache
+*.sbr
+
+# Carpeta de logs de VS Code
+.vscode-test/
+
+# Ayuda y documentación temporal
+*.crunchignore
+*.crunchproject
